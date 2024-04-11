@@ -15,7 +15,7 @@
   height: 100vh;
   width: 100vw;
   z-index: -1;
-  background-color: var(--primary-medium);
+  background-color: var(--primary-high, $primary-high);
   @if $no-background-image == "false" {
     @if $background-image != "default" {
       // Thanks @tmoko!
