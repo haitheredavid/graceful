@@ -4,8 +4,8 @@
   --d-hover: var(--tertiary-low);
 }
 
-@mixin box-shadow($value: 8px) {
-  box-shadow: 0 0px $value rgba(black, 0.18);
+@mixin box-shadow($value: 0px) {
+  box-shadow: 0 0px $value rgba(black, 0.0);
 }
 
 .background-container {
@@ -235,7 +235,7 @@ header.d-header {
   background: transparent;
   button {
     background: var(--secondary);
-    @include box-shadow(2px);
+    @include box-shadow(0px);
     &:hover {
       background: var(--tertiary-low);
     }
