@@ -5,7 +5,7 @@
 }
 
 @mixin box-shadow($value: 8px) {
-  box-shadow: 0 1px $value rgba(black, 0.18);
+  box-shadow: 0 0px $value rgba(black, 0.18);
 }
 
 .background-container {
